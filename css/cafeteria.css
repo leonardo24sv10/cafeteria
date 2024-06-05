@@ -1,3 +1,6 @@
+/* Importando as fontes do gogle */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 /* Zerar as margens de todos os elemtnos da página. margens internas e externas */
 *{
     margin: 0px;
@@ -6,6 +9,63 @@
 }
 /*  Vamos adicionar uma imagem ao fundo do header */
 header{
-    background-image: url("../img/cafeteria5.jpg");
+    background-image: url("../img/cafeteria2.png");
+    /* Ajustar o tamanho da imagem em 100% de largura */
+    background-size: 100%;
+    /* Ajustar a posição d imagem em X e Y */
+    background-position: 0px -50px;
     height: 400px;
+    padding: 20px;
+}
+
+nav{
+    /* Tornando o conteúdo da nav flexível. isso permite que os elementos fiquem um ao lado do outro.  */
+    display: flex;
+    /* Cria um espacamento entre os itens */
+    justify-content: space-between;
+    /* Alinhamento vertical entre os elementos que estão na Nav  */
+    align-items: center;
+}
+
+/* Mudar a cor da letra */
+h1{
+    color: rgb(238, 236, 236);
+    /* Alterar fonte da letra */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    /* Alterar o tamanho da Caixa (alta ou baixa)*/
+    text-transform: capitalize;
+}
+ul{
+    /* Retirar o marcador da lista */
+    list-style: none;
+}
+
+ header ul li{
+    /* Vamos ajudar a disposição (display) dos intens da lista em formato de linha(um ao lado do outro) */
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    
+}
+
+ header ul li:hover{
+    background-color: #bdbdbdbe;
+}
+
+header ul li a{
+    color: rgb(252, 246, 246);
+    /* Vamos retirar o underline(sublinhado) */
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ header h2{
+    color: rgb(243, 238, 238);
+    text-align: center;
+    margin-top: 4rem;
+    font-family: "Oswald", sans-serif;
+    font-size: 28pt;
+    font-weight: 500;
 }
