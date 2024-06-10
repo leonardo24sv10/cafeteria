@@ -1,5 +1,6 @@
 /* Importando as fontes do gogle */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
 
 /* Zerar as margens de todos os elemtnos da página. margens internas e externas */
 *{
@@ -69,3 +70,72 @@ header ul li a{
     font-size: 28pt;
     font-weight: 500;
 }
+header p{
+    font-family: "Kalam", cursive;
+    font-size: 17pt;
+    color:white;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-shadow: 0px 0px 5px black;
+}
+
+footer{
+    background-color:#455a64;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+    padding-top:100px;
+    padding-bottom:100px ;
+    
+    font-family: arial;
+    font-size: 15pt;
+    color:#fff;
+}
+
+footer #rede li{
+    /* colocar as redes em linha */
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* -------------------Formatação da pagina index------------------------ */
+main h2{
+    font-family: "Oswald", sans-serif;
+    margin: 15px;
+    font-size: 20pt;
+    color: #455564;
+}
+
+main #home P {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 15px 10px 15px;
+    text-align: justify;/*alinhar dos dois lados*/  
+    font-size: 12pt;
+ /*  O comando line-height define a altura da linha (espaçamento entre linhas). Estamos usando uma altura de 1,5, o tamanho da fonte mais meio
+ do tamanho da fonte */
+ line-height: 18pt;
+}
+main #imghome img{
+    margin: 200px;
+    width: 300px;
+    height: 300px;
+    /* arrendondar os cantos da imagem */
+    border-radius: 50%;
+
+    /* vamos aplicar um efeito de transparencia da imagem usando o comando opacity q varia entre 0 e 1 ou seja se voce aplicar 0.6 
+    que está usando 60% se opacidade isto representa 60% de visibilidade */
+    opacity: 0.6;
+
+    /* o comando transition pode realizar uma animação de transisção, que você pode configurar o tipo de transição e o tempo de transição */
+    transition: ease 1s;
+    }
+
+    main #imghome img:hover{
+        opacity: 1;
+    }
+
+    main #imghome{
+        text-align: center;
+    }
