@@ -139,3 +139,37 @@ main #imghome img{
     main #imghome{
         text-align: center;
     }
+
+    /* --------------------------Formatação da pagina cardapio --------------------------- */
+    main #categoriacardapio{
+        width: 80%;
+        /* Vamos centralizar a caixa cardapio categoria modificando a margem da esquerda e da direita com auto automatico */
+        margin-left: auto;
+        margin-right: auto;
+        /* aplicar a disposição flex para deixar as imagens uma ao lado da outra */
+        display: flex;
+        /* alinhar o conteudo ao centro */
+        justify-content: center;
+        align-items: center;
+        margin-top: -50px;
+    }
+
+    .itemcardapio img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: block;
+        box-shadow: 0px 0px 10px chocolate;
+        margin-bottom: 5px;
+    }
+
+        .itemcardapio{
+            text-align: center;
+            margin: 15px;
+        }
+
+        .itemcardapio a{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: black;
+        }
