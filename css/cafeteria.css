@@ -238,3 +238,13 @@ main #imghome img{
             margin: 50px;
             border-radius: 50px;
         }
+        /* -------------pagina localização---------------- */
+        #mapa{
+            text-align: center;
+        }
+        
+        #mapa iframe{
+            width: 90%;
+            height: 600px;
+            margin: 50px;
+        }
