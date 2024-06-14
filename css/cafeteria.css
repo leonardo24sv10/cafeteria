@@ -248,3 +248,55 @@ main #imghome img{
             height: 600px;
             margin: 50px;
         }
+        /* ----------------------------Contato-------------------------------- */
+        form{
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+            padding: 10px;
+            box-shadow: 0px 5px 5px silver;
+        }
+        input[type=text], 
+        input[type=tel], 
+        input[type=email],
+        select {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 0;
+            /* retira a borda ativa do input(formulario) */
+            outline: none;
+            border-bottom: 1px solid silver;
+            /* dotted= pontilhado
+            dashed= trasejado
+            double= linha dupla */
+        }
+
+        select{
+            width: 50%;
+        }
+
+        textarea{
+            width: 100%;
+            height: 200px;
+            outline-color: #90EE90;
+            /* bloqueia o redimensionamento da textarea */
+            resize: none;
+        }
+        form span{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12pt;
+        }
+        input[type=submit]{
+            padding: 10px 30px;
+            border: 0;
+            background-color: black;
+            color: white;
+            /* mouse vira uma mão */
+            cursor: pointer;
+            display: block;
+            /* modificações no sentido horario */
+            margin: 5px auto 20px auto;
+        }
